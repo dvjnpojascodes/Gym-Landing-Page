@@ -1,6 +1,9 @@
 .workoutSlider .swiper-wrapper {
   height: 420px;
-  /* background: pink; */
+}
+
+.workoutSlider {
+  margin: 0 5em;
 }
 
 .workoutSlider .swiper-button-prev::after,
@@ -37,5 +40,9 @@
   .workoutSlider .swiper-button-prev,
   .workoutSlider .swiper-button-next {
     display: none;
+  }
+
+  .workoutSlider {
+    margin: 0 1em;
   }
 }

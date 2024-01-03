@@ -1,8 +1,8 @@
 import React from 'react';
-import WorkoutSlider from '../components/WorkoutSlider';
 import { products } from '../data';
+import WorkoutSlider from './ProductSlider';
 
-const Workouts = () => {
+const Product = () => {
 
   const {title, icon} = products;
 
@@ -22,4 +22,4 @@ const Workouts = () => {
   );
 };
 
-export default Workouts;
+export default Product;

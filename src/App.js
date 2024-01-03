@@ -11,8 +11,8 @@ import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Join from './components/Join';
+import Products from './components/Products';
 import Review from './components/Review';
-import Workouts from './components/Workouts';
 
 const App = () => {
   // aos initialization
@@ -26,7 +26,7 @@ const App = () => {
       <Header />
       <Banner />
       <About />
-      <Workouts />
+      <Products />
       <Review />
       <Faq />
       <Join />
