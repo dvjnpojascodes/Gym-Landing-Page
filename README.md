@@ -1,1 +1,1 @@
-# Gym-Landing-Page
+# gymme-landing-starter
