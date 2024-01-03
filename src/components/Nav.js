@@ -1,9 +1,9 @@
 import React from 'react';
-import {nav} from '../data';
+import { nav } from '../data';
 
 const Nav = () => {
   return (
-    <nav className='hidden lg:flex '>
+    <nav className='hidden lg:flex m-0 p-0'>
       <ul className='flex text-white gap-x-8'>
         {nav.map((item, idx) => {
           return(

@@ -19,7 +19,7 @@ const Header = () => {
   return (
   
     <header className={`${isActive ? 'bg-neutral-500 py-[16px]' : 'bg-transparent py-[20px]'} 
-                            fixed max-w-[1500px] z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
+                            fixed  z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
     <a href='/'>
       <img src={logo} alt='' className='h-[40px]'></img>
     </a>
